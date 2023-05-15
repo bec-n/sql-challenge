@@ -23,11 +23,11 @@ Employees
 -
 emp_no INT PK
 emp_title_id VARCHAR(5) FK >- Titles.title_id
-birth_date VARCHAR(30)
+birth_date DATE
 first_name VARCHAR(30)
 last_name VARCHAR(30)
 sex VARCHAR(1)
-hire_date VARCHAR(30)
+hire_date DATE
 
 Salaries
 - 
@@ -38,4 +38,3 @@ Titles
 - 
 title_id VARCHAR(5) PK 
 title VARCHAR(30)
-
