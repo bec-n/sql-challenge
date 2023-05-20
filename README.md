@@ -11,13 +11,13 @@ dept_name VARCHAR(30)
 
 Dept_emp
 -
-emp_no INT PK FK >- Employees.emp_no
+emp_no INT FK >- Employees.emp_no
 dept_no VARCHAR(5) FK >- Departments.dept_no
 
 Dept_manager
 -
-dept_no VARCHAR(5) PK FK >- Departments.dept_no
-emp_no INT FK >- Employees.emp_no
+dept_no VARCHAR(5) FK >- Departments.dept_no
+emp_no INT PK FK >- Employees.emp_no
 
 Employees
 -
@@ -38,3 +38,11 @@ Titles
 - 
 title_id VARCHAR(5) PK 
 title VARCHAR(30)
+
+
+# References
+Converting date strings to date value 
+https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-to_date/
+
+
+Code from class activity solutions 
