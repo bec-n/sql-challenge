@@ -16,18 +16,18 @@ dept_no VARCHAR(5) FK >- Departments.dept_no
 
 Dept_manager
 -
-dept_no VARCHAR(5) FK >- Departments.dept_no
+dept_no VARCHAR(5) PK FK >- Departments.dept_no
 emp_no INT FK >- Employees.emp_no
 
 Employees
 -
 emp_no INT PK
 emp_title_id VARCHAR(5) FK >- Titles.title_id
-birth_date DATE
+birth_date VARCHAR(30)
 first_name VARCHAR(30)
 last_name VARCHAR(30)
 sex VARCHAR(1)
-hire_date DATE
+hire_date VARCHAR(30)
 
 Salaries
 - 
